@@ -39,9 +39,9 @@ u_slider = Slider(
     # ax=plt.axes([0.2, 0.01, 0.65, 0.03]),
     ax=u_slider_pos,
     label='Urgency',
-    valmin=-10,
+    valmin=0,
     valmax=10,
-    valstep=.05,
+    valstep=0.25,
     orientation="vertical",
     valinit=u_pow
 )
@@ -51,9 +51,9 @@ i_slider = Slider(
     # ax=plt.axes([0.2, 0.01, 0.65, 0.03]),
     ax=i_slider_pos,
     label='Impact',
-    valmin=-10,
+    valmin=0,
     valmax=10,
-    valstep=.05,
+    valstep=0.25,
     orientation="vertical",
     valinit=i_pow
 )
@@ -62,9 +62,9 @@ b_slider_pos = fig.add_axes([0.15, 0.25, 0.0225, 0.63])
 b_slider = Slider(
     ax=b_slider_pos,
     label='Blocks',
-    valmin=-10,
+    valmin=0,
     valmax=10,
-    valstep=.05,
+    valstep=0.25,
     orientation="vertical",
     valinit=b_pow
 )
