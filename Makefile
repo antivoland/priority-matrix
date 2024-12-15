@@ -11,4 +11,4 @@ venv:
 
 run: venv
 	#. venv/bin/activate; jupyter lab
-	. venv/bin/activate; python3 test.py
+	. venv/bin/activate; python3 demo.py
